@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "packshelf",
+  "version": "${version}",
+  "name": "PackShelf",
+  "description": "Search and download Minecraft resource packs from Modrinth without leaving the game.",
+  "authors": ["PackShelf Contributors"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.packshelf.PackShelfMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
